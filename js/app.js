@@ -1,15 +1,4 @@
 
-
-
-/*
- *  TO DO:
- *      - get timer to reset (again) on clicking .restart and .popRestart
- *      - finish README.md file (whatever that entails)
- */
-
-
-
-
 const deck = document.querySelector('.deck'); // Creates list that holds cards.
 
 let moves = 0;
@@ -289,10 +278,6 @@ function returnToGame () {
      $('.starTwo').removeClass('full');
      console.log('You lost another star!');
    }
-   else if (moves === 40) {
-     $('.starThree').removeClass('full');
-     console.log('You lost your last one!');
-   }
 
    return starScore;
  }
@@ -332,18 +317,3 @@ $(function() {
     createStar();
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-/*
- * !!!  TESTING SPACE BELOW  !!!
- * USED TO TRACK ANY CHANGES TO SEE IF/WHAT F***S UP CODE
- */
