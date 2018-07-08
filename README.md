@@ -13,7 +13,7 @@
 
 ## Instructions <a id="instructions"></a>
 
-This Memgory Game will help test your short-term memory as well as provide a tool to help pass the time.
+This Memory Game will help test your short-term memory as well as provide a tool to help pass the time.
 
 For specific, detailed instructions on the original project, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
